@@ -65,4 +65,7 @@ footer{
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;
-  }
+}
+pre{
+	color: #8E8E8E;
+}
