@@ -61,7 +61,7 @@ div.heading {
     }
 
     .head {
-        font-size: 40px;
+        font-size: 30px;
     }
 
 }
@@ -195,4 +195,61 @@ ul.features {
 
 .container .download:hover {
     background-color: royalblue;
+}
+
+
+.card {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+    display: inline-block;
+}
+
+h1 {
+    color: #fff;
+}
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: #000000;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+
+footer {
+    color: #fff;
+}
+
+ul.contact {
+    list-style: none;
+    padding: 30px;
+    margin: auto;
+}
+
+ul.contact li.contact_list {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+    padding: 12px;
 }
