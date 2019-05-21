@@ -253,3 +253,7 @@ ul.contact li.contact_list {
     background-color: #f6f6f6;
     padding: 12px;
 }
+
+.card img {
+    border-radius: 50%;
+}
