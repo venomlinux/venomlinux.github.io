@@ -21,52 +21,12 @@ div.heading {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-@media screen and (max-width: 700px) {
-    div.heading {
-        font-size: 30px;
-    }
-    div.sub_heading {
-        font-size: 15px;  
-    }
-
-    ul.nav {
-        font-size: 12px;
-    }
-
-    .main p {
-        font-size: 12px;
-    }
-
-    .head {
-        font-size: 25px;
-    }
-}
-
-@media screen and (min-width: 701px) {
-    div.heading {
-        font-size: 50px;
-    }
-
-    div.sub_heading {
-        font-size: 25px;  
-    }
-
-    ul.nav {
-        font-size: 20px;
-    }
-
-    .main p {
-        font-size: 17px;
-    }
-
-    .head {
-        font-size: 30px;
-    }
-
+div.heading {
+    font-size: 35px;
 }
 
 div.sub_heading {
+    font-size: 20px;
     text-align: center;  
 }
 
@@ -84,7 +44,6 @@ ul.nav {
 
 .nav li {
     float: left;
-
 }
 
 .nav li a {
@@ -92,6 +51,7 @@ ul.nav {
     color: #fff;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 18px;
     transition: all .3s;
 }
 
@@ -118,6 +78,7 @@ div.main {
 }
 
 .head {
+    font-size: 20px;
     color: #fff;
     text-align: center;
     font-weight: lighter;
@@ -248,9 +209,9 @@ ul.contact {
 }
 
 ul.contact li.contact_list {
-    border: 1px solid #ddd;
+    border: 1px solid rgb(68, 68, 68);
     margin-top: -1px;
-    background-color: #f6f6f6;
+    background-color: #1d1d1d;
     padding: 12px;
 }
 
