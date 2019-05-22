@@ -225,6 +225,12 @@ ul.contact li.contact_list {
 }
 
 @media (max-width: 960px) {
+    .head {
+        font-size: 17px;
+    }
+    p {
+        font-size: 13px;
+    }
     ul.nav {
     }
 
