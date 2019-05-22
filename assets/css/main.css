@@ -51,7 +51,7 @@ ul.nav {
     color: #fff;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     transition: all .3s;
 }
 
@@ -63,10 +63,14 @@ ul.nav {
 }
 
 
-div.main {
+.main {
     background-color: #000000;
 }
 
+.main a {
+    text-decoration: none;
+    font-size: 16px;
+}
 .main p {
     color: rgb(233, 233, 233);
     font-weight: lighter;
@@ -209,6 +213,7 @@ ul.contact {
 }
 
 ul.contact li.contact_list {
+    color: #fff;
     border: 1px solid rgb(68, 68, 68);
     margin-top: -1px;
     background-color: #1d1d1d;
@@ -217,4 +222,14 @@ ul.contact li.contact_list {
 
 .card img {
     border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+    ul.nav {
+    }
+
+    .nav li a {
+        
+        font-size: 12px;
+    }
 }
