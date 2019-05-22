@@ -1,6 +1,6 @@
 html{
     font-family: 'Inconsolata', monospace;
-    background-color: #263238;
+    background-color: #2D3335;
     margin: 0;
     padding: 0.5% 6% 0 6%;
     line-height: 1.15;
@@ -38,7 +38,7 @@ html{
 }
 .main{
     text-align: justify;
-    color: #eceff1;
+    color: #b3b3b3;
 }
 .main a{
     text-align: justify;
