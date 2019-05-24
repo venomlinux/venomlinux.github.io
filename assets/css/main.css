@@ -1,6 +1,7 @@
 html{
-    font-family: 'Inconsolata', monospace;
-    background-color: #2D3335;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #292929;
+    font-size: 14px;
     margin: 0;
     padding: 0.5% 6% 0 6%;
     line-height: 1.15;
@@ -22,7 +23,7 @@ html{
     border-bottom: dotted 2px  #eceff1;
 }
 .header a:hover{
-    color: #00bcd4;
+    color: #35C46B;
     text-decoration: dotted;
 }
 .img img{
@@ -38,15 +39,15 @@ html{
 }
 .main{
     text-align: justify;
-    color: #b3b3b3;
+    color: #eceff1;
 }
 .main a{
     text-align: justify;
-    color: #eceff1;
+    color: #35C46B;
     text-decoration: none;
 }
 .main a:hover{
-    color: #00bcd4;
+    color: #eceff1;
     text-decoration: underline;
 }
 .main-about{
