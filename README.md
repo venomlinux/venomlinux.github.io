@@ -1,2 +1,2 @@
-# Venom Linux Website
-Website files for Venom Linux
+# Venom Linux website
+Website files for Venom Linux.
