@@ -9,49 +9,7 @@
       <code>scratch</code> command to keep their <strong>Venom Linux</strong> up
       to date, since <strong>Venom Linux</strong> is a rolling release.<br /><br />
       <Fieldset legend="Download">
-        <Panel header="Venom">
-          <DataTable :value="download_own">
-            <Column field="version" header="Version">
-              <template #body="slotProps">
-                <strong>{{ slotProps.data.version }}</strong>
-              </template>
-            </Column>
-            <Column field="download" header="Download">
-              <template #body="slotProps">
-                <Button
-                  type="button"
-                  label="Download"
-                  icon="pi pi-download"
-                  class="p-button-info down"
-                  @click="open(slotProps.data.download)"
-                />
-              </template>
-            </Column>
-            <Column field="md5" header="Verify">
-              <template #body="slotProps">
-                <Button
-                  type="button"
-                  label="md5sum"
-                  icon="pi pi-key"
-                  class="p-button-secondary down"
-                  @click="open(slotProps.data.md5)"
-                />
-              </template>
-            </Column>
-            <Column field="sha512" header="SHA512">
-              <template #body="slotProps">
-                <Button
-                  type="button"
-                  label="sha512sum"
-                  icon="pi pi-key"
-                  class="p-button-secondary down"
-                  v-if="slotProps.data.sha512"
-                  @click="open(slotProps.data.sha512)"
-                />
-              </template>
-            </Column>
-          </DataTable> </Panel
-        ><br />
+
         <Panel header="OSDN">
           <DataTable :value="download_osdn">
             <Column field="version" header="Version">
@@ -148,26 +106,6 @@
 export default {
   data() {
     return {
-      download_own: [
-        {
-          version: "A complete xfce4 desktop (ISO)",
-          download: "https://files.venomlinux.org/venomlinux.iso",
-          md5: "https://files.venomlinux.org/venomlinux.md5",
-          sha512: "https://files.venomlinux.org/venomlinux.sha512"
-        },
-        {
-          version: "A minimal base system (ISO)",
-          download: "https://files.venomlinux.org/venomlinux-base.iso",
-          md5: "https://files.venomlinux.org/venomlinux-base.md5",
-          sha512: "https://files.venomlinux.org/venomlinux-base.sha512"
-        },
-        {
-          version: "A tarball of the rootfs (tar.xz)",
-          download: "https://files.venomlinux.org/venomlinux-rootfs.tar.xz",
-          md5: "https://files.venomlinux.org/venomlinux-rootfs.md5",
-          sha512: "https://files.venomlinux.org/venomlinux-rootfs.sha512"
-        }
-      ],
       download_osdn: [
         {
           version: "A complete xfce4 desktop (ISO)",
