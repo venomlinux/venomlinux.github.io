@@ -4,12 +4,7 @@
       <div class="p-col p-as-center">
         <Menubar :model="items">
           <template #start>
-            <img
-              alt="logo"
-              src="https://raw.githubusercontent.com/venomlinux/venomlinux.github.io/master/assets/ico/venom-logo.jpg"
-              height="40"
-              class="p-mr-2"
-            />
+            <img alt="logo" src="venom-logo.jpg" height="40" class="p-mr-2" />
           </template>
         </Menubar>
         <router-view />
