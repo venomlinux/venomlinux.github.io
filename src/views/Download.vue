@@ -9,7 +9,6 @@
       <code>scratch</code> command to keep their <strong>Venom Linux</strong> up
       to date, since <strong>Venom Linux</strong> is a rolling release.<br /><br />
       <Fieldset legend="Download">
-
         <Panel header="OSDN">
           <DataTable :value="download_osdn">
             <Column field="version" header="Version">
