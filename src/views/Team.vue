@@ -182,15 +182,15 @@ export default {
   }
 
   .team-card {
-    min-width: 400px;
-    max-width: 400px;
+    min-width: 300px;
+    max-width: 300px;
     margin-bottom: 0.5em;
   }
 }
 
 .team-card {
-  min-width: 400px;
-  max-width: 400px;
+  min-width: 300px;
+  max-width: 300px;
 }
 
 .team .p-card-footer {
@@ -198,15 +198,15 @@ export default {
 }
 
 .team .p-card-title {
-  min-height: 56px !important;
+  min-height: 60px !important;
 }
 
 .team .p-card-content {
-  min-height: 121px !important;
+  min-height: 130px !important;
 }
 
 .team .p-card-header img {
-  width: 400px;
-  max-width: 400px;
+  width: 300px;
+  max-width: 300px;
 }
 </style>
