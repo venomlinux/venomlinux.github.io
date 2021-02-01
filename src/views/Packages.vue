@@ -73,7 +73,7 @@ export default {
     loadPackages() {
       axios
         .get(
-          "https://raw.githubusercontent.com/MalteKiefer/ports/master/scripts/packages.json"
+          "https://raw.githubusercontent.com/venomlinux/ports/master/scripts/packages.json"
         )
         .then(
           function(response) {
