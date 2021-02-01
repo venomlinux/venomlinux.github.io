@@ -6,6 +6,7 @@ import Donate from "../views/Donate.vue";
 import Team from "../views/Team.vue";
 import Community from "../views/Community.vue";
 import Stats from "../views/Stats.vue";
+import Packages from "../views/Packages.vue";
 
 const routes = [
   {
@@ -22,6 +23,11 @@ const routes = [
     path: "/download",
     name: "Download",
     component: Download
+  },
+  {
+    path: "/packages",
+    name: "Packages",
+    component: Packages
   },
   {
     path: "/stats",

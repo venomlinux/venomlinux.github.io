@@ -98,6 +98,11 @@ export default {
           to: "/download"
         },
         {
+          label: "Packages",
+          icon: "pi pi-inbox",
+          to: "/packages"
+        },
+        {
           label: "Stats",
           icon: "pi pi-star",
           to: "/stats"

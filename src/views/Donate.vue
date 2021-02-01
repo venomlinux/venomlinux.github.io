@@ -13,27 +13,45 @@
       </p>
       <p>Thanks!</p>
     </template>
+
     <template #footer>
-      <Button
-        icon="pi pi-paypal"
-        label="PayPal"
-        @click="open('https://paypal.me/syazwanemmett')"
-        class="donateBtn"
-      />
-      <Button
-        icon="pi pi-credit-card"
-        label="Liberapay"
-        class="p-button-warning donateBtn"
-        style="margin-left: 0.5em"
-        @click="open('https://liberapay.com/beli3ver')"
-      />
-      <Button
-        icon="pi pi-dollar"
-        label="BuyMeACoffee"
-        class="p-button-secondary donateBtn"
-        style="margin-left: 0.5em"
-        @click="open('https://buymeacoffee.com/venomlinux')"
-      />
+      <Fieldset legend="Support emmett1">
+        <Button
+          icon="pi pi-paypal"
+          label="PayPal"
+          @click="open('https://paypal.me/syazwanemmett')"
+          class="donateBtn"
+        />
+        <Button
+          icon="pi pi-credit-card"
+          label="Liberapay"
+          class="p-button-warning donateBtn"
+          style="margin-left: 0.5em"
+          @click="open('https://liberapay.com/emmett1')"
+        />
+        <Button
+          icon="pi pi-dollar"
+          label="BuyMeACoffee"
+          class="p-button-secondary donateBtn"
+          style="margin-left: 0.5em"
+          @click="open('https://buymeacoffee.com/venomlinux')"
+        /> </Fieldset
+      ><br />
+      <Fieldset legend="Support Malte">
+        <Button
+          icon="pi pi-paypal"
+          label="PayPal"
+          @click="open('https://paypal.me/maltekiefer')"
+          class="donateBtn"
+        />
+        <Button
+          icon="pi pi-credit-card"
+          label="Liberapay"
+          class="p-button-warning donateBtn"
+          style="margin-left: 0.5em"
+          @click="open('https://liberapay.com/beli3ver')"
+        />
+      </Fieldset>
     </template>
   </Card>
   <Toast />

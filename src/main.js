@@ -23,6 +23,8 @@ import Message from "primevue/message";
 import Fieldset from "primevue/fieldset";
 import DataTable from "primevue/datatable";
 import Column from "primevue/column";
+import InputText from "primevue/inputtext";
+import Tooltip from "primevue/tooltip";
 
 const app = createApp(App);
 
@@ -38,6 +40,8 @@ app.component("Message", Message);
 app.component("Fieldset", Fieldset);
 app.component("DataTable", DataTable);
 app.component("Column", Column);
+app.component("InputText", InputText);
+app.directive("tooltip", Tooltip);
 
 app.use(store);
 app.use(router);
