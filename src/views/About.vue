@@ -5,11 +5,11 @@
       Venom Linux is a source-based Linux® distribution originating from
       Malaysia that targets experienced users. This distro is inspired by CRUX
       because of its simplicity and its KISS philosophy. Venom Linux uses simple
-      tar compressed packages, a ports system, runit init and a collection of
-      small packages which are trimmed down by removed unnecessary things like
-      locale, doc, gtk-doc, info pages (man pages are kept), etc. Venom Linux
-      uses a custom package manager, which is fully written in POSIX shell
-      script, for installing, upgrading and removing packages. Venom Linux
+      tar compressed packages, a ports system, custom BSD-style init and a
+      collection of small packages which are trimmed down by removed unnecessary
+      things like locale, doc, gtk-doc, info pages (man pages are kept), etc.
+      Venom Linux uses a custom package manager, which is fully written in POSIX
+      shell script, for installing, upgrading and removing packages. Venom Linux
       features:
       <ul>
         <li>Package build script in the style of BSD's ports.</li>
