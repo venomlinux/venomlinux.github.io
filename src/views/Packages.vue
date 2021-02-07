@@ -29,14 +29,20 @@
           <template #body="slotProps" :class="name">
             <span
               class="package_link"
-              @click="goToPackage(slotProps.data.repo, slotProps.data.name)"
+              @click="goToHomepage(slotProps.data.homepage)"
+              v-tooltip.bottom="slotProps.data.homepage"
               >{{ slotProps.data.name }}</span
             >
           </template>
         </Column>
         <Column field="version" header="Version">
-          <template #body="slotProps">
-            {{ slotProps.data.version }}
+          <template #body="slotProps" :class="name">
+            <span
+              class="package_link"
+              @click="goToPackage(slotProps.data.repo, slotProps.data.name)"
+              v-tooltip.bottom="'Open package port'"
+              >{{ slotProps.data.version }}</span
+            >
           </template>
         </Column>
         <Column header="Action">
@@ -90,6 +96,9 @@ export default {
         "https://github.com/venomlinux/ports/tree/master/" + repo + "/" + pack,
         "_blank"
       );
+    },
+    goToHomepage(homepage) {
+      window.open(homepage, "_blank");
     },
     markOutdated(pack) {
       window.open(

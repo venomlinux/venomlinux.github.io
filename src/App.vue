@@ -83,7 +83,7 @@ export default {
     return {
       items: [
         {
-          label: "Start",
+          label: "Home",
           icon: "pi pi-home",
           to: "/"
         },
