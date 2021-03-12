@@ -5,7 +5,7 @@
       <strong>Venom Linux</strong> can be obtained from various sources. Choose
       the source and variant that suits you.
       <br />
-      <strong>Venom Linux</strong> users can use the
+      Users can use the
       <code>scratch</code> command to keep their <strong>Venom Linux</strong> up
       to date, since <strong>Venom Linux</strong> is a rolling release.<br /><br />
       <Fieldset legend="Download">
@@ -58,7 +58,7 @@
                 />
               </template>
             </Column>
-            <Column field="md5" header="MD5">
+            <Column field="md5" header="Verify">
               <template #body="slotProps">
                 <Button
                   type="button"
@@ -107,43 +107,30 @@ export default {
     return {
       download_osdn: [
         {
-          version: "A complete xfce4 desktop (ISO)",
-          download: "https://osdn.net/dl/venomlinux/venomlinux-20201116.iso",
-          md5: "https://osdn.net/dl/venomlinux/venomlinux-20201116.iso.md5"
+          version: "Openbox ISO",
+          download: "https://osdn.net/dl/venomlinux/venomlinux-20210312.iso",
+          md5: "https://osdn.net/dl/venomlinux/venomlinux-20210312.iso.md5"
         },
         {
-          version: "A minimal base system (ISO)",
-          download:
-            "https://osdn.net/dl/venomlinux/venomlinux-base-20201124.iso",
-          md5: "https://osdn.net/dl/venomlinux/venomlinux-base-20201124.iso.md5"
-        },
-        {
-          version: "A tarball of the rootfs (tar.xz)",
+          version: "Base rootfs tarball",
           download: "https://osdn.net/dl/venomlinux/venomlinux-rootfs.tar.xz",
           md5: "https://osdn.net/dl/venomlinux/venomlinux-rootfs.tar.xz.md5"
         }
       ],
       download_sourceforge: [
         {
-          version: "A complete xfce4 desktop (ISO)",
+          version: "Openbox ISO",
           download:
-            "https://sourceforge.net/projects/venomlinux/files/202011/venomlinux-base-20201124.iso/download",
+            "https://sourceforge.net/projects/venomlinux/files/202103/venomlinux-20210312.iso/download",
           md5:
-            "https://sourceforge.net/projects/venomlinux/files/202011/venomlinux-base-20201124.iso/download"
+            "https://sourceforge.net/projects/venomlinux/files/202103/venomlinux-20210312.iso/download"
         },
         {
-          version: "A minimal base system (ISO)",
+          version: "Base rootfs tarball",
           download:
-            "https://sourceforge.net/projects/venomlinux/files/202011/venomlinux-base-20201124.iso/download",
+            "https://sourceforge.net/projects/venomlinux/files/202103/venomlinux-rootfs.tar.xz/download",
           md5:
-            "https://sourceforge.net/projects/venomlinux/files/202011/venomlinux-base-20201124.iso/download"
-        },
-        {
-          version: "A tarball of the rootfs (tar.xz)",
-          download:
-            "https://sourceforge.net/projects/venomlinux/files/202011/venomlinux-rootfs.tar.xz/download",
-          md5:
-            "https://sourceforge.net/projects/venomlinux/files/202011/venomlinux-rootfs.tar.xz.md5/download"
+            "https://sourceforge.net/projects/venomlinux/files/202103/venomlinux-rootfs.tar.xz.md5/download"
         }
       ]
     };

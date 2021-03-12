@@ -2,7 +2,12 @@
   <Card style="margin-bottom: 1em; margin-top: 1em">
     <template #title> Packages</template>
     <template #content>
-      <p>Click on the filename to open the package contents at Github</p>
+      <p>
+        If port you find not exist on Venom's repo, you can open an issue
+        requesting port
+        <a href="https://github.com/venomlinux/ports/issues">here</a>, make sure
+        you give enough details.
+      </p>
       <DataTable
         :value="packages"
         :paginator="true"

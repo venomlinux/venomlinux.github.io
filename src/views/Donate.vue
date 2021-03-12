@@ -3,19 +3,15 @@
     <template #title> Donate</template>
     <template #content>
       <p>
-        A lot of work and free time goes into VenomLinux.<br />
+        A lot of work and free time goes into Venom Linux.<br />
         We would therefore be pleased if you would like to finance us by making
         a small donation.
-      </p>
-      <p>
-        To support the work from Malte as package maintainer, click on the
-        Liberapay button.
       </p>
       <p>Thanks!</p>
     </template>
 
     <template #footer>
-      <Fieldset legend="Support emmett1">
+      <Fieldset legend="Emmett1 (Lead Developer)">
         <Button
           icon="pi pi-paypal"
           label="PayPal"
@@ -37,7 +33,7 @@
           @click="open('https://buymeacoffee.com/venomlinux')"
         /> </Fieldset
       ><br />
-      <Fieldset legend="Support Malte">
+      <Fieldset legend="Malte (Port Maintainer)">
         <Button
           icon="pi pi-paypal"
           label="PayPal"

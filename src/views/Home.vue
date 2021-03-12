@@ -4,7 +4,7 @@
     <template #content>
       <div style="text-align: center;">
         <img
-          src="../assets/screen1.png"
+          src="../assets/screenshot-20210312.png"
           alt="screen"
           style="width: 100%;max-width: 680px; border-radius: 5px;"
         />
