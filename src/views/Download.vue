@@ -9,6 +9,37 @@
       <code>scratch</code> command to keep their <strong>Venom Linux</strong> up
       to date, since <strong>Venom Linux</strong> is a rolling release.<br /><br />
       <Fieldset legend="Download">
+        <Panel header="Venomlinux Server (Location: Germany)">
+          <DataTable :value="download_server_germany">
+            <Column field="version" header="Version">
+              <template #body="slotProps">
+                <strong>{{ slotProps.data.version }}</strong>
+              </template>
+            </Column>
+            <Column field="download" header="Download">
+              <template #body="slotProps">
+                <Button
+                  type="button"
+                  label="Download"
+                  icon="pi pi-download"
+                  class="p-button-info down"
+                  @click="open(slotProps.data.download)"
+                />
+              </template>
+            </Column>
+            <Column field="md5" header="Verify">
+              <template #body="slotProps">
+                <Button
+                  type="button"
+                  label="md5sum"
+                  icon="pi pi-key"
+                  class="p-button-secondary down"
+                  @click="open(slotProps.data.md5)"
+                />
+              </template>
+            </Column>
+          </DataTable> </Panel
+        ><br />
         <Panel header="OSDN">
           <DataTable :value="download_osdn">
             <Column field="version" header="Version">
@@ -105,6 +136,18 @@
 export default {
   data() {
     return {
+      download_server_germany: [
+        {
+          version: "Openbox ISO",
+          download: "https://dl.venomlinux.org/venomlinux-20210312.iso",
+          md5: "https://dl.venomlinux.org/venomlinux-20210312.iso.md5"
+        },
+        {
+          version: "Base rootfs tarball",
+          download: "https://dl.venomlinux.org/venomlinux-rootfs.tar.xz",
+          md5: "https://dl.venomlinux.org/venomlinux-rootfs.tar.xz.md5"
+        }
+      ],
       download_osdn: [
         {
           version: "Openbox ISO",
