@@ -84,7 +84,7 @@ export default {
     loadPackages() {
       axios
         .get(
-          "https://raw.githubusercontent.com/venomlinux/ports/master/scripts/packages.json"
+          "https://raw.githubusercontent.com/venomlinux/ports/2.0/scripts/packages.json"
         )
         .then(
           function(response) {
@@ -98,7 +98,7 @@ export default {
     },
     goToPackage(repo, pack) {
       window.open(
-        "https://github.com/venomlinux/ports/tree/master/" + repo + "/" + pack,
+        "https://github.com/venomlinux/ports/tree/2.0/" + repo + "/" + pack,
         "_blank"
       );
     },
