@@ -166,16 +166,16 @@ export default {
         {
           version: "Openbox ISO",
           download:
-            "https://sourceforge.net/projects/venomlinux/files/2.1-x86_64/venomlinux-2.1-x86_64.iso/download",
+            "https://sourceforge.net/projects/venomlinux/files/2.0/venomlinux-2.1-x86_64.iso/download",
           md5:
-            "https://sourceforge.net/projects/venomlinux/files/2.1-x86_64/venomlinux-2.1-x86_64.iso/download"
+            "https://sourceforge.net/projects/venomlinux/files/2.0/venomlinux-2.1-x86_64.iso/download"
         },
         {
           version: "Base rootfs tarball",
           download:
-            "https://sourceforge.net/projects/venomlinux/files/2.1-x86_64/venomlinux-rootfs-2.1-x86_64.tar.xz/download",
+            "https://sourceforge.net/projects/venomlinux/files/2.0/venomlinux-rootfs-2.1-x86_64.tar.xz/download",
           md5:
-            "https://sourceforge.net/projects/venomlinux/files/2.1-x86_64/venomlinux-rootfs-2.1-x86_64.tar.xz.md5/download"
+            "https://sourceforge.net/projects/venomlinux/files/2.0/venomlinux-rootfs-2.1-x86_64.tar.xz.md5/download"
         }
       ]
     };
