@@ -5,7 +5,7 @@
       <strong>Venom Linux</strong> can be obtained from various sources. Choose
       the source and variant that suits you.
       <br />
-      Current version is <strong>2.0</strong> <br /><br />
+      Current version is <strong>2.1</strong> <br /><br />
       <Fieldset legend="Download">
         <Panel header="Venomlinux Server (Location: Germany)">
           <DataTable :value="download_server_germany">
@@ -137,42 +137,45 @@ export default {
       download_server_germany: [
         {
           version: "Openbox ISO",
-          download: "https://dl.venomlinux.org/venomlinux-2.0.iso",
-          md5: "https://dl.venomlinux.org/venomlinux-2.0.iso.md5"
+          download: "https://dl.venomlinux.org/venomlinux-2.1-x86_64.iso",
+          md5: "https://dl.venomlinux.org/venomlinux-2.1-x86_64.iso.md5"
         },
         {
           version: "Base rootfs tarball",
-          download: "https://dl.venomlinux.org/venomlinux-rootfs-2.0.tar.xz",
-          md5: "https://dl.venomlinux.org/venomlinux-rootfs-2.0.tar.xz.md5"
+          download:
+            "https://dl.venomlinux.org/venomlinux-rootfs-2.1-x86_64.tar.xz",
+          md5:
+            "https://dl.venomlinux.org/venomlinux-rootfs-2.1-x86_64.tar.xz.md5"
         }
       ],
       download_osdn: [
         {
           version: "Openbox ISO",
-          download: "https://osdn.net/dl/venomlinux/venomlinux-2.0.iso",
-          md5: "https://osdn.net/dl/venomlinux/venomlinux-2.0.iso.md5"
+          download: "https://osdn.net/dl/venomlinux/venomlinux-2.1-x86_64.iso",
+          md5: "https://osdn.net/dl/venomlinux/venomlinux-2.1-x86_64.iso.md5"
         },
         {
           version: "Base rootfs tarball",
           download:
-            "https://osdn.net/dl/venomlinux/venomlinux-rootfs-2.0.tar.xz",
-          md5: "https://osdn.net/dl/venomlinux/venomlinux-rootfs-2.0.tar.xz.md5"
+            "https://osdn.net/dl/venomlinux/venomlinux-rootfs-2.1-x86_64.tar.xz",
+          md5:
+            "https://osdn.net/dl/venomlinux/venomlinux-rootfs-2.1-x86_64.tar.xz.md5"
         }
       ],
       download_sourceforge: [
         {
           version: "Openbox ISO",
           download:
-            "https://sourceforge.net/projects/venomlinux/files/2.0/venomlinux-2.0.iso/download",
+            "https://sourceforge.net/projects/venomlinux/files/2.1-x86_64/venomlinux-2.1-x86_64.iso/download",
           md5:
-            "https://sourceforge.net/projects/venomlinux/files/2.0/venomlinux-2.0.iso/download"
+            "https://sourceforge.net/projects/venomlinux/files/2.1-x86_64/venomlinux-2.1-x86_64.iso/download"
         },
         {
           version: "Base rootfs tarball",
           download:
-            "https://sourceforge.net/projects/venomlinux/files/2.0/venomlinux-rootfs-2.0.tar.xz/download",
+            "https://sourceforge.net/projects/venomlinux/files/2.1-x86_64/venomlinux-rootfs-2.1-x86_64.tar.xz/download",
           md5:
-            "https://sourceforge.net/projects/venomlinux/files/2.0/venomlinux-rootfs-2.0.tar.xz.md5/download"
+            "https://sourceforge.net/projects/venomlinux/files/2.1-x86_64/venomlinux-rootfs-2.1-x86_64.tar.xz.md5/download"
         }
       ]
     };

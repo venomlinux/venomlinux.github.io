@@ -3,6 +3,9 @@
     <template #title> Packages</template>
     <template #content>
       <p>
+        Ports for Venom Linux 2.1
+      </p>
+      <p>
         If port you find not exist on Venom's repo, you can open an issue
         requesting port
         <a href="https://github.com/venomlinux/ports/issues">here</a>, make sure
@@ -84,7 +87,7 @@ export default {
     loadPackages() {
       axios
         .get(
-          "https://raw.githubusercontent.com/venomlinux/ports/2.0/scripts/packages.json"
+          "https://raw.githubusercontent.com/venomlinux/ports/2.1/scripts/packages.json"
         )
         .then(
           function(response) {
@@ -98,7 +101,7 @@ export default {
     },
     goToPackage(repo, pack) {
       window.open(
-        "https://github.com/venomlinux/ports/tree/2.0/" + repo + "/" + pack,
+        "https://github.com/venomlinux/ports/tree/2.1/" + repo + "/" + pack,
         "_blank"
       );
     },
